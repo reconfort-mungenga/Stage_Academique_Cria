@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 253, 253);
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(102, 104, 199);
+    border-radius: 10px;
+    text-align: center;
+    height: 145px;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(50, 50, 126);
+    border-radius: 10px;
+    width: 90%;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    color: rgb(255, 238, 0);
+}
+
+main {
+    background-color: rgb(175, 172, 172);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section {
+    text-align: center;
+    background-color: rgb(102, 104, 199);
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+footer{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+}
+.bouton {
+    display: inline-block;
+    background-color: rgb(50, 50, 126);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.bouton:hover {
+    background-color: rgb(155, 154, 143);
+    color: black;
+}
